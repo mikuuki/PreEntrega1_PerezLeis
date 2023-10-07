@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins';
+
+}
+body {
+    background-color: #e9dfdb;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 1em;
+    font-size: 1.2em;
+    color: rgb(106, 87, 160);
+  
+}
+
+header a {
+    color: brown;
+    font-weight: bold;
+}
+
+main {
+    padding: 10em;
+}
+
+main h1 {
+    font-size: 3em;
+    color: rgb(0, 0, 0);
+}
+main p {
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+    padding-top: 1em;
+    padding-right: 10em;
+}
+main button {
+    margin-top: 1em;
+    padding: .5em;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: transparent;
+    border-radius: 1em;
+    background-color: #e9dfdb;
+}
+
+main a {
+    color: brown;
+}
